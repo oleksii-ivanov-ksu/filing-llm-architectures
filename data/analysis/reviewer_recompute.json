@@ -1,0 +1,91 @@
+{
+  "p6_holdout": {
+    "one-stage/core-50": {
+      "top": 0.698,
+      "bottom": 0.261,
+      "spread": 0.437
+    },
+    "one-stage/holdout-50": {
+      "top": 0.462,
+      "bottom": 0.305,
+      "spread": 0.157
+    },
+    "two-stage/core-50": {
+      "top": 0.487,
+      "bottom": 0.555,
+      "spread": -0.068
+    },
+    "two-stage/holdout-50": {
+      "top": 0.359,
+      "bottom": 0.368,
+      "spread": -0.01
+    },
+    "LM/core-50": {
+      "top": 0.415,
+      "bottom": 0.608,
+      "spread": -0.193
+    },
+    "LM/holdout-50": {
+      "top": 0.391,
+      "bottom": 0.209,
+      "spread": 0.182
+    }
+  },
+  "p6_alpha": {
+    "core-50": {
+      "top_alpha_pct": 6.71,
+      "top_t": 3.02,
+      "bottom_alpha_pct": 0.23,
+      "bottom_t": 0.1
+    },
+    "holdout-50": {
+      "top_alpha_pct": 2.42,
+      "top_t": 1.0,
+      "bottom_alpha_pct": 1.12,
+      "bottom_t": 0.47
+    }
+  },
+  "p7_ttest": {
+    "one-stage": {
+      "mean_daily_diff_bps": 2.736,
+      "t_stat": 1.71,
+      "p_value": 0.0866,
+      "ann_diff_pct": 7.14
+    },
+    "two-stage": {
+      "mean_daily_diff_bps": -1.561,
+      "t_stat": -1.18,
+      "p_value": 0.2367,
+      "ann_diff_pct": -3.86
+    },
+    "LM": {
+      "mean_daily_diff_bps": -2.43,
+      "t_stat": -1.99,
+      "p_value": 0.0464,
+      "ann_diff_pct": -5.94
+    }
+  },
+  "p9_turnover_cost": {
+    "avg_roundtrip_turnover_per_quarter": 1.14,
+    "cost_sensitivity": {
+      "0bps": {
+        "top": 0.722,
+        "spread": 0.442,
+        "top_alpha_pct": 7.18,
+        "t": 3.23
+      },
+      "10bps": {
+        "top": 0.698,
+        "spread": 0.437,
+        "top_alpha_pct": 6.71,
+        "t": 3.02
+      },
+      "20bps": {
+        "top": 0.673,
+        "spread": 0.432,
+        "top_alpha_pct": 6.23,
+        "t": 2.8
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "runs": 3,
+  "n_docs_compared": 90,
+  "temperature": 0.3,
+  "view_bps_sigma_mean": 9.45,
+  "view_bps_sigma_median": 0.0,
+  "sign_agreement_rate": 0.9444,
+  "confidence_agreement_rate": 0.8889,
+  "mean_pairwise_spearman": 0.8821,
+  "cost_est_usd": 4.32
+}

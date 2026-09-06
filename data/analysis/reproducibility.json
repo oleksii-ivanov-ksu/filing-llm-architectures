@@ -1,0 +1,13 @@
+{
+  "model": "google/gemini-2.5-flash",
+  "runs": 3,
+  "n_docs_compared": 90,
+  "temperature": 0.1,
+  "risk_category_jaccard_mean": 0.8563,
+  "sentiment_agreement_rate": 0.8889,
+  "guidance_direction_agreement_rate": 0.8444,
+  "n_risks_std_mean": 0.3597,
+  "n_events_std_mean": 0.9042,
+  "grounded_frac_std_mean": 0.0,
+  "cost_est_usd": 4.4
+}

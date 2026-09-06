@@ -1,0 +1,4674 @@
+{
+  "anthropic_claude-haiku-4.5": {
+    "attempted": 90,
+    "ok": 90,
+    "success_rate": 1.0,
+    "grounding_rate": 0.954,
+    "avg_latency": 24.2,
+    "recall_blind": 0.257,
+    "recall_all": 0.304,
+    "precision_blind": 0.641,
+    "extra_ev_per_doc_blind": 1.65,
+    "avg_events_per_doc": 4.989,
+    "avg_output_tokens": 1940,
+    "detail": {
+      "blind": {
+        "tp": 59,
+        "gold": 230,
+        "model_ev": 92,
+        "docs": 20
+      },
+      "pool": {
+        "tp": 199,
+        "gold": 620,
+        "model_ev": 357,
+        "docs": 70
+      },
+      "all": {
+        "tp": 258,
+        "gold": 850,
+        "model_ev": 449,
+        "docs": 90
+      }
+    },
+    "per_doc": [
+      {
+        "doc": "AKAM_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "AIZ_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 8
+      },
+      {
+        "doc": "DTE_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "TYL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "DAL_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "AJG_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "UPS_10-Q_2018",
+        "tier": "tier1a_tuning",
+        "matched": 5,
+        "gold": 18,
+        "model": 5
+      },
+      {
+        "doc": "APH_10-Q_2025",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 8,
+        "model": 4
+      },
+      {
+        "doc": "MO_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 8,
+        "model": 8
+      },
+      {
+        "doc": "DPZ_10-Q_2013",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 3,
+        "model": 3
+      },
+      {
+        "doc": "VZ_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "DVA_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 5
+      },
+      {
+        "doc": "F_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 5
+      },
+      {
+        "doc": "GRMN_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "EMN_10-Q_2013",
+        "tier": "tier1a_tuning",
+        "matched": 4,
+        "gold": 13,
+        "model": 5
+      },
+      {
+        "doc": "FIS_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "MAR_10-K_2017",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "CSGP_10-K_2013",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 5
+      },
+      {
+        "doc": "GWW_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 5
+      },
+      {
+        "doc": "CAT_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 7,
+        "gold": 11,
+        "model": 8
+      },
+      {
+        "doc": "AON_10-Q_2017",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 16,
+        "model": 4
+      },
+      {
+        "doc": "ALGN_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "SHW_10-Q_2007",
+        "tier": "tier2_pool",
+        "matched": 7,
+        "gold": 14,
+        "model": 11
+      },
+      {
+        "doc": "EQR_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "DOV_10-K_2019",
+        "tier": "tier1b_eval",
+        "matched": 5,
+        "gold": 12,
+        "model": 6
+      },
+      {
+        "doc": "CNC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 11,
+        "gold": 12,
+        "model": 13
+      },
+      {
+        "doc": "RCL_10-K_2019",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 17,
+        "model": 5
+      },
+      {
+        "doc": "AVB_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 6
+      },
+      {
+        "doc": "REG_10-Q_2022",
+        "tier": "tier1b_eval",
+        "matched": 5,
+        "gold": 7,
+        "model": 5
+      },
+      {
+        "doc": "CL_10-K_2007",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 6
+      },
+      {
+        "doc": "TFC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 8,
+        "model": 4
+      },
+      {
+        "doc": "ALB_10-K_2023",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 5,
+        "model": 4
+      },
+      {
+        "doc": "BKNG_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 9,
+        "model": 4
+      },
+      {
+        "doc": "BAC_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 13,
+        "model": 7
+      },
+      {
+        "doc": "NFLX_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 5
+      },
+      {
+        "doc": "LKQ_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "MMM_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 5,
+        "model": 6
+      },
+      {
+        "doc": "AFL_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 5
+      },
+      {
+        "doc": "EOG_10-Q_2019",
+        "tier": "tier1a_tuning",
+        "matched": 1,
+        "gold": 8,
+        "model": 3
+      },
+      {
+        "doc": "CNP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 7
+      },
+      {
+        "doc": "BA_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "AXP_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "CBRE_10-Q_2025",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "MPWR_10-Q_2009",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "CMS_10-Q_2020",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 13,
+        "model": 7
+      },
+      {
+        "doc": "SYK_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "EW_10-Q_2022",
+        "tier": "tier1a_tuning",
+        "matched": 2,
+        "gold": 9,
+        "model": 4
+      },
+      {
+        "doc": "BRO_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 4
+      },
+      {
+        "doc": "CMCSA_10-K_2025",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "FAST_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 1
+      },
+      {
+        "doc": "AOS_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 4
+      },
+      {
+        "doc": "EXPD_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 2,
+        "model": 3
+      },
+      {
+        "doc": "ABT_10-K_2006",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 8
+      },
+      {
+        "doc": "TXN_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "CINF_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "CF_10-K_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 12,
+        "model": 5
+      },
+      {
+        "doc": "VLO_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "CME_10-Q_2017",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "BLDR_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 10,
+        "model": 6
+      },
+      {
+        "doc": "AMP_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "EXPE_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "WELL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 5
+      },
+      {
+        "doc": "BMY_10-Q_2006",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 50,
+        "model": 5
+      },
+      {
+        "doc": "BXP_10-K_2022",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 10,
+        "model": 12
+      },
+      {
+        "doc": "AES_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 7
+      },
+      {
+        "doc": "CCI_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 5,
+        "model": 3
+      },
+      {
+        "doc": "ELV_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "MAS_10-K_2020",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 6
+      },
+      {
+        "doc": "BSX_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 6
+      },
+      {
+        "doc": "CHRW_10-Q_2013",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 5
+      },
+      {
+        "doc": "AEP_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 8
+      },
+      {
+        "doc": "ECL_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "GPC_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "AMZN_10-K_2008",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "AIG_10-Q_2023",
+        "tier": "tier1a_tuning",
+        "matched": 6,
+        "gold": 9,
+        "model": 8
+      },
+      {
+        "doc": "FRT_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 5
+      },
+      {
+        "doc": "AME_10-Q_2007",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "CVS_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "CTSH_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "CMG_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 5
+      },
+      {
+        "doc": "CMI_10-K_2011",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 11,
+        "model": 6
+      },
+      {
+        "doc": "AMGN_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "BIIB_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 7,
+        "model": 6
+      },
+      {
+        "doc": "WMT_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "CB_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "DGX_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 5
+      },
+      {
+        "doc": "CHD_10-Q_2023",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "DVN_10-K_2012",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 18,
+        "model": 5
+      },
+      {
+        "doc": "D_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 14,
+        "model": 5
+      },
+      {
+        "doc": "COP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 7,
+        "gold": 14,
+        "model": 7
+      }
+    ],
+    "f1_blind_grounded": 0.405,
+    "cost_per_doc": 0.0496,
+    "corpus_cost": 452
+  },
+  "deepseek_deepseek-chat-v3.1": {
+    "attempted": 90,
+    "ok": 88,
+    "success_rate": 0.978,
+    "grounding_rate": 0.969,
+    "avg_latency": 63.6,
+    "recall_blind": 0.187,
+    "recall_all": 0.238,
+    "precision_blind": 0.632,
+    "extra_ev_per_doc_blind": 1.25,
+    "avg_events_per_doc": 3.556,
+    "avg_output_tokens": 1202,
+    "detail": {
+      "blind": {
+        "tp": 43,
+        "gold": 230,
+        "model_ev": 68,
+        "docs": 20
+      },
+      "pool": {
+        "tp": 159,
+        "gold": 620,
+        "model_ev": 252,
+        "docs": 70
+      },
+      "all": {
+        "tp": 202,
+        "gold": 850,
+        "model_ev": 320,
+        "docs": 90
+      }
+    },
+    "per_doc": [
+      {
+        "doc": "AKAM_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "AIZ_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 9,
+        "model": 5
+      },
+      {
+        "doc": "TYL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "DAL_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "AJG_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 10,
+        "model": 6
+      },
+      {
+        "doc": "UPS_10-Q_2018",
+        "tier": "tier1a_tuning",
+        "matched": 2,
+        "gold": 18,
+        "model": 3
+      },
+      {
+        "doc": "APH_10-Q_2025",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 8,
+        "model": 5
+      },
+      {
+        "doc": "MO_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 8,
+        "model": 4
+      },
+      {
+        "doc": "DPZ_10-Q_2013",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 3,
+        "model": 3
+      },
+      {
+        "doc": "VZ_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "DVA_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 3
+      },
+      {
+        "doc": "F_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "GRMN_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "EMN_10-Q_2013",
+        "tier": "tier1a_tuning",
+        "matched": 3,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "FIS_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "MAR_10-K_2017",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "CSGP_10-K_2013",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "GWW_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 5
+      },
+      {
+        "doc": "CAT_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "AON_10-Q_2017",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 16,
+        "model": 4
+      },
+      {
+        "doc": "ALGN_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "SHW_10-Q_2007",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 14,
+        "model": 4
+      },
+      {
+        "doc": "EQR_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "DOV_10-K_2019",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 12,
+        "model": 5
+      },
+      {
+        "doc": "CNC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 12,
+        "model": 7
+      },
+      {
+        "doc": "RCL_10-K_2019",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 17,
+        "model": 5
+      },
+      {
+        "doc": "AVB_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "REG_10-Q_2022",
+        "tier": "tier1b_eval",
+        "matched": 5,
+        "gold": 7,
+        "model": 6
+      },
+      {
+        "doc": "CL_10-K_2007",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 13,
+        "model": 3
+      },
+      {
+        "doc": "TFC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "ALB_10-K_2023",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 5,
+        "model": 3
+      },
+      {
+        "doc": "BKNG_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 9,
+        "model": 5
+      },
+      {
+        "doc": "BAC_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "NFLX_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 4
+      },
+      {
+        "doc": "LKQ_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "MMM_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 5,
+        "model": 4
+      },
+      {
+        "doc": "AFL_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "EOG_10-Q_2019",
+        "tier": "tier1a_tuning",
+        "matched": 1,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "CNP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 5
+      },
+      {
+        "doc": "BA_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "AXP_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "CBRE_10-Q_2025",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "MPWR_10-Q_2009",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "CMS_10-Q_2020",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "SYK_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "EW_10-Q_2022",
+        "tier": "tier1a_tuning",
+        "matched": 4,
+        "gold": 9,
+        "model": 4
+      },
+      {
+        "doc": "BRO_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 3
+      },
+      {
+        "doc": "CMCSA_10-K_2025",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "FAST_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "AOS_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "EXPD_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 2,
+        "model": 2
+      },
+      {
+        "doc": "ABT_10-K_2006",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 7
+      },
+      {
+        "doc": "TXN_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "CINF_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 1
+      },
+      {
+        "doc": "CF_10-K_2016",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 12,
+        "model": 3
+      },
+      {
+        "doc": "VLO_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "BLDR_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 9,
+        "gold": 10,
+        "model": 11
+      },
+      {
+        "doc": "AMP_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "EXPE_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 8,
+        "model": 4
+      },
+      {
+        "doc": "WELL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 3
+      },
+      {
+        "doc": "BMY_10-Q_2006",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 50,
+        "model": 4
+      },
+      {
+        "doc": "BXP_10-K_2022",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "AES_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 6
+      },
+      {
+        "doc": "CCI_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "ELV_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "MAS_10-K_2020",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "BSX_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "CHRW_10-Q_2013",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 4
+      },
+      {
+        "doc": "AEP_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "ECL_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "GPC_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "AMZN_10-K_2008",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "AIG_10-Q_2023",
+        "tier": "tier1a_tuning",
+        "matched": 2,
+        "gold": 9,
+        "model": 2
+      },
+      {
+        "doc": "FRT_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "AME_10-Q_2007",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "CVS_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "CTSH_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 1
+      },
+      {
+        "doc": "CMG_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "CMI_10-K_2011",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 4
+      },
+      {
+        "doc": "AMGN_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "BIIB_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "WMT_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 11,
+        "model": 4
+      },
+      {
+        "doc": "CB_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "DGX_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "CHD_10-Q_2023",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "DVN_10-K_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 18,
+        "model": 4
+      },
+      {
+        "doc": "D_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 14,
+        "model": 5
+      },
+      {
+        "doc": "COP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 14,
+        "model": 4
+      }
+    ],
+    "f1_blind_grounded": 0.314,
+    "cost_per_doc": 0.0239,
+    "corpus_cost": 218
+  },
+  "google_gemini-2.5-flash": {
+    "attempted": 90,
+    "ok": 90,
+    "success_rate": 1.0,
+    "grounding_rate": 0.99,
+    "avg_latency": 13.3,
+    "recall_blind": 0.291,
+    "recall_all": 0.362,
+    "precision_blind": 0.598,
+    "extra_ev_per_doc_blind": 2.25,
+    "avg_events_per_doc": 6.222,
+    "avg_output_tokens": 1746,
+    "detail": {
+      "blind": {
+        "tp": 67,
+        "gold": 230,
+        "model_ev": 112,
+        "docs": 20
+      },
+      "pool": {
+        "tp": 241,
+        "gold": 620,
+        "model_ev": 448,
+        "docs": 70
+      },
+      "all": {
+        "tp": 308,
+        "gold": 850,
+        "model_ev": 560,
+        "docs": 90
+      }
+    },
+    "per_doc": [
+      {
+        "doc": "AKAM_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "AIZ_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 10
+      },
+      {
+        "doc": "DTE_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 7
+      },
+      {
+        "doc": "TYL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "DAL_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 6,
+        "model": 6
+      },
+      {
+        "doc": "AJG_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 10,
+        "model": 10
+      },
+      {
+        "doc": "UPS_10-Q_2018",
+        "tier": "tier1a_tuning",
+        "matched": 6,
+        "gold": 18,
+        "model": 7
+      },
+      {
+        "doc": "APH_10-Q_2025",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 8,
+        "model": 5
+      },
+      {
+        "doc": "MO_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 8,
+        "model": 5
+      },
+      {
+        "doc": "DPZ_10-Q_2013",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 3,
+        "model": 3
+      },
+      {
+        "doc": "VZ_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 7,
+        "model": 7
+      },
+      {
+        "doc": "DVA_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 8,
+        "model": 9
+      },
+      {
+        "doc": "F_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 5
+      },
+      {
+        "doc": "GRMN_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "EMN_10-Q_2013",
+        "tier": "tier1a_tuning",
+        "matched": 6,
+        "gold": 13,
+        "model": 9
+      },
+      {
+        "doc": "FIS_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 6,
+        "model": 5
+      },
+      {
+        "doc": "MAR_10-K_2017",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "CSGP_10-K_2013",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 5
+      },
+      {
+        "doc": "GWW_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 6
+      },
+      {
+        "doc": "CAT_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 11,
+        "model": 8
+      },
+      {
+        "doc": "AON_10-Q_2017",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 16,
+        "model": 5
+      },
+      {
+        "doc": "ALGN_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "SHW_10-Q_2007",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 14,
+        "model": 7
+      },
+      {
+        "doc": "EQR_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "DOV_10-K_2019",
+        "tier": "tier1b_eval",
+        "matched": 7,
+        "gold": 12,
+        "model": 8
+      },
+      {
+        "doc": "CNC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 10,
+        "gold": 12,
+        "model": 12
+      },
+      {
+        "doc": "RCL_10-K_2019",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 17,
+        "model": 12
+      },
+      {
+        "doc": "AVB_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 8
+      },
+      {
+        "doc": "REG_10-Q_2022",
+        "tier": "tier1b_eval",
+        "matched": 5,
+        "gold": 7,
+        "model": 5
+      },
+      {
+        "doc": "CL_10-K_2007",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 5
+      },
+      {
+        "doc": "TFC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "ALB_10-K_2023",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 5,
+        "model": 6
+      },
+      {
+        "doc": "BKNG_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 9,
+        "model": 6
+      },
+      {
+        "doc": "BAC_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 13,
+        "model": 8
+      },
+      {
+        "doc": "NFLX_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "LKQ_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 5
+      },
+      {
+        "doc": "MMM_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 5,
+        "model": 9
+      },
+      {
+        "doc": "AFL_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 7
+      },
+      {
+        "doc": "EOG_10-Q_2019",
+        "tier": "tier1a_tuning",
+        "matched": 3,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "CNP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 9,
+        "model": 10
+      },
+      {
+        "doc": "BA_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 9
+      },
+      {
+        "doc": "AXP_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 11,
+        "model": 8
+      },
+      {
+        "doc": "CBRE_10-Q_2025",
+        "tier": "tier1b_eval",
+        "matched": 5,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "MPWR_10-Q_2009",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 6,
+        "model": 7
+      },
+      {
+        "doc": "CMS_10-Q_2020",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 13,
+        "model": 6
+      },
+      {
+        "doc": "SYK_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "EW_10-Q_2022",
+        "tier": "tier1a_tuning",
+        "matched": 3,
+        "gold": 9,
+        "model": 5
+      },
+      {
+        "doc": "BRO_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 8,
+        "model": 3
+      },
+      {
+        "doc": "CMCSA_10-K_2025",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 8
+      },
+      {
+        "doc": "FAST_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "AOS_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 5
+      },
+      {
+        "doc": "EXPD_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 2,
+        "model": 3
+      },
+      {
+        "doc": "ABT_10-K_2006",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 6
+      },
+      {
+        "doc": "TXN_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "CINF_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "CF_10-K_2016",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 12,
+        "model": 7
+      },
+      {
+        "doc": "VLO_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "CME_10-Q_2017",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "BLDR_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 10,
+        "model": 10
+      },
+      {
+        "doc": "AMP_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "EXPE_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 8,
+        "model": 9
+      },
+      {
+        "doc": "WELL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 13,
+        "model": 7
+      },
+      {
+        "doc": "BMY_10-Q_2006",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 50,
+        "model": 4
+      },
+      {
+        "doc": "BXP_10-K_2022",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 10,
+        "model": 20
+      },
+      {
+        "doc": "AES_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 10,
+        "model": 9
+      },
+      {
+        "doc": "CCI_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 5,
+        "model": 3
+      },
+      {
+        "doc": "ELV_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 5
+      },
+      {
+        "doc": "MAS_10-K_2020",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 11,
+        "model": 6
+      },
+      {
+        "doc": "BSX_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 11,
+        "model": 7
+      },
+      {
+        "doc": "CHRW_10-Q_2013",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 5
+      },
+      {
+        "doc": "AEP_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 10
+      },
+      {
+        "doc": "ECL_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "GPC_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 6,
+        "model": 5
+      },
+      {
+        "doc": "AMZN_10-K_2008",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "AIG_10-Q_2023",
+        "tier": "tier1a_tuning",
+        "matched": 6,
+        "gold": 9,
+        "model": 7
+      },
+      {
+        "doc": "FRT_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 7
+      },
+      {
+        "doc": "AME_10-Q_2007",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "CVS_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "CTSH_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "CMG_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 5
+      },
+      {
+        "doc": "CMI_10-K_2011",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 11,
+        "model": 6
+      },
+      {
+        "doc": "AMGN_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 8
+      },
+      {
+        "doc": "BIIB_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 7,
+        "model": 10
+      },
+      {
+        "doc": "WMT_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "CB_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "DGX_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 6
+      },
+      {
+        "doc": "CHD_10-Q_2023",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "DVN_10-K_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 18,
+        "model": 4
+      },
+      {
+        "doc": "D_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 14,
+        "model": 12
+      },
+      {
+        "doc": "COP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 9,
+        "gold": 14,
+        "model": 12
+      }
+    ],
+    "f1_blind_grounded": 0.45,
+    "cost_per_doc": 0.0163,
+    "corpus_cost": 149
+  },
+  "google_gemini-2.5-flash-lite": {
+    "attempted": 90,
+    "ok": 88,
+    "success_rate": 0.978,
+    "grounding_rate": 0.994,
+    "avg_latency": 11.4,
+    "recall_blind": 0.235,
+    "recall_all": 0.32,
+    "precision_blind": 0.6,
+    "extra_ev_per_doc_blind": 1.8,
+    "avg_events_per_doc": 4.822,
+    "avg_output_tokens": 1518,
+    "detail": {
+      "blind": {
+        "tp": 54,
+        "gold": 230,
+        "model_ev": 90,
+        "docs": 20
+      },
+      "pool": {
+        "tp": 218,
+        "gold": 620,
+        "model_ev": 344,
+        "docs": 70
+      },
+      "all": {
+        "tp": 272,
+        "gold": 850,
+        "model_ev": 434,
+        "docs": 90
+      }
+    },
+    "per_doc": [
+      {
+        "doc": "AKAM_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "AIZ_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 7
+      },
+      {
+        "doc": "DTE_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "TYL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "DAL_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "AJG_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 10,
+        "model": 7
+      },
+      {
+        "doc": "UPS_10-Q_2018",
+        "tier": "tier1a_tuning",
+        "matched": 5,
+        "gold": 18,
+        "model": 7
+      },
+      {
+        "doc": "APH_10-Q_2025",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "MO_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 8,
+        "model": 4
+      },
+      {
+        "doc": "DPZ_10-Q_2013",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 3,
+        "model": 3
+      },
+      {
+        "doc": "VZ_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 7,
+        "model": 6
+      },
+      {
+        "doc": "DVA_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "F_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 5
+      },
+      {
+        "doc": "GRMN_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 10,
+        "model": 0
+      },
+      {
+        "doc": "EMN_10-Q_2013",
+        "tier": "tier1a_tuning",
+        "matched": 3,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "FIS_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "MAR_10-K_2017",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "CSGP_10-K_2013",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 13,
+        "model": 6
+      },
+      {
+        "doc": "GWW_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 5
+      },
+      {
+        "doc": "CAT_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 7,
+        "gold": 11,
+        "model": 7
+      },
+      {
+        "doc": "AON_10-Q_2017",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 16,
+        "model": 4
+      },
+      {
+        "doc": "ALGN_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "SHW_10-Q_2007",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 14,
+        "model": 9
+      },
+      {
+        "doc": "EQR_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "DOV_10-K_2019",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 12,
+        "model": 9
+      },
+      {
+        "doc": "CNC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 12,
+        "model": 8
+      },
+      {
+        "doc": "RCL_10-K_2019",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 17,
+        "model": 6
+      },
+      {
+        "doc": "AVB_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "REG_10-Q_2022",
+        "tier": "tier1b_eval",
+        "matched": 5,
+        "gold": 7,
+        "model": 6
+      },
+      {
+        "doc": "CL_10-K_2007",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 5
+      },
+      {
+        "doc": "TFC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 8,
+        "model": 3
+      },
+      {
+        "doc": "ALB_10-K_2023",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 5,
+        "model": 4
+      },
+      {
+        "doc": "BKNG_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 5
+      },
+      {
+        "doc": "BAC_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 7,
+        "gold": 13,
+        "model": 7
+      },
+      {
+        "doc": "NFLX_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 4
+      },
+      {
+        "doc": "LKQ_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "MMM_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 4
+      },
+      {
+        "doc": "AFL_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "EOG_10-Q_2019",
+        "tier": "tier1a_tuning",
+        "matched": 2,
+        "gold": 8,
+        "model": 5
+      },
+      {
+        "doc": "CNP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 6
+      },
+      {
+        "doc": "BA_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "AXP_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "CBRE_10-Q_2025",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "MPWR_10-Q_2009",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 6,
+        "model": 6
+      },
+      {
+        "doc": "CMS_10-Q_2020",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 13,
+        "model": 8
+      },
+      {
+        "doc": "SYK_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "EW_10-Q_2022",
+        "tier": "tier1a_tuning",
+        "matched": 5,
+        "gold": 9,
+        "model": 6
+      },
+      {
+        "doc": "BRO_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 8,
+        "model": 4
+      },
+      {
+        "doc": "CMCSA_10-K_2025",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 10,
+        "model": 7
+      },
+      {
+        "doc": "FAST_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 3
+      },
+      {
+        "doc": "AOS_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "EXPD_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 2,
+        "model": 1
+      },
+      {
+        "doc": "ABT_10-K_2006",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 8
+      },
+      {
+        "doc": "TXN_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "CINF_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 0
+      },
+      {
+        "doc": "CF_10-K_2016",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 12,
+        "model": 6
+      },
+      {
+        "doc": "VLO_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "CME_10-Q_2017",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "BLDR_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "AMP_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "EXPE_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 8,
+        "model": 5
+      },
+      {
+        "doc": "WELL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 13,
+        "model": 9
+      },
+      {
+        "doc": "BMY_10-Q_2006",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 50,
+        "model": 5
+      },
+      {
+        "doc": "AES_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 10,
+        "model": 7
+      },
+      {
+        "doc": "CCI_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 5,
+        "model": 1
+      },
+      {
+        "doc": "ELV_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "MAS_10-K_2020",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 11,
+        "model": 8
+      },
+      {
+        "doc": "BSX_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 11,
+        "model": 7
+      },
+      {
+        "doc": "CHRW_10-Q_2013",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 4
+      },
+      {
+        "doc": "AEP_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 10
+      },
+      {
+        "doc": "ECL_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "GPC_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "AMZN_10-K_2008",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "AIG_10-Q_2023",
+        "tier": "tier1a_tuning",
+        "matched": 6,
+        "gold": 9,
+        "model": 6
+      },
+      {
+        "doc": "FRT_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 6
+      },
+      {
+        "doc": "AME_10-Q_2007",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "CVS_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "CTSH_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "CMG_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 5
+      },
+      {
+        "doc": "CMI_10-K_2011",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 5
+      },
+      {
+        "doc": "AMGN_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 11,
+        "model": 10
+      },
+      {
+        "doc": "WMT_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 6
+      },
+      {
+        "doc": "CB_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "DGX_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 13,
+        "model": 8
+      },
+      {
+        "doc": "CHD_10-Q_2023",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "DVN_10-K_2012",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 18,
+        "model": 5
+      },
+      {
+        "doc": "D_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 14,
+        "model": 9
+      },
+      {
+        "doc": "COP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 14,
+        "model": 7
+      }
+    ],
+    "f1_blind_grounded": 0.38,
+    "cost_per_doc": 0.0046,
+    "corpus_cost": 42
+  },
+  "meta-llama_llama-4-maverick": {
+    "attempted": 90,
+    "ok": 90,
+    "success_rate": 1.0,
+    "grounding_rate": 0.971,
+    "avg_latency": 58.8,
+    "recall_blind": 0.135,
+    "recall_all": 0.172,
+    "precision_blind": 0.689,
+    "extra_ev_per_doc_blind": 0.7,
+    "avg_events_per_doc": 2.589,
+    "avg_output_tokens": 912,
+    "detail": {
+      "blind": {
+        "tp": 31,
+        "gold": 230,
+        "model_ev": 45,
+        "docs": 20
+      },
+      "pool": {
+        "tp": 115,
+        "gold": 620,
+        "model_ev": 188,
+        "docs": 70
+      },
+      "all": {
+        "tp": 146,
+        "gold": 850,
+        "model_ev": 233,
+        "docs": 90
+      }
+    },
+    "per_doc": [
+      {
+        "doc": "AKAM_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "AIZ_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 9,
+        "model": 4
+      },
+      {
+        "doc": "DTE_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "TYL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "DAL_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "AJG_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "UPS_10-Q_2018",
+        "tier": "tier1a_tuning",
+        "matched": 4,
+        "gold": 18,
+        "model": 4
+      },
+      {
+        "doc": "APH_10-Q_2025",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 3
+      },
+      {
+        "doc": "MO_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "DPZ_10-Q_2013",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 3,
+        "model": 2
+      },
+      {
+        "doc": "VZ_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 5
+      },
+      {
+        "doc": "DVA_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "F_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "GRMN_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 10,
+        "model": 0
+      },
+      {
+        "doc": "EMN_10-Q_2013",
+        "tier": "tier1a_tuning",
+        "matched": 3,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "FIS_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "MAR_10-K_2017",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "CSGP_10-K_2013",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 3
+      },
+      {
+        "doc": "GWW_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 4
+      },
+      {
+        "doc": "CAT_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 4
+      },
+      {
+        "doc": "AON_10-Q_2017",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 16,
+        "model": 2
+      },
+      {
+        "doc": "ALGN_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "SHW_10-Q_2007",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 14,
+        "model": 1
+      },
+      {
+        "doc": "EQR_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "DOV_10-K_2019",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 12,
+        "model": 3
+      },
+      {
+        "doc": "CNC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 12,
+        "model": 3
+      },
+      {
+        "doc": "RCL_10-K_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 17,
+        "model": 3
+      },
+      {
+        "doc": "AVB_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "REG_10-Q_2022",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "CL_10-K_2007",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 13,
+        "model": 3
+      },
+      {
+        "doc": "TFC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "ALB_10-K_2023",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "BKNG_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 9,
+        "model": 3
+      },
+      {
+        "doc": "BAC_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "NFLX_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "LKQ_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "MMM_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "AFL_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "EOG_10-Q_2019",
+        "tier": "tier1a_tuning",
+        "matched": 0,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "CNP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 9,
+        "model": 3
+      },
+      {
+        "doc": "BA_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "AXP_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 4
+      },
+      {
+        "doc": "CBRE_10-Q_2025",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "MPWR_10-Q_2009",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "CMS_10-Q_2020",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 13,
+        "model": 2
+      },
+      {
+        "doc": "SYK_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "EW_10-Q_2022",
+        "tier": "tier1a_tuning",
+        "matched": 2,
+        "gold": 9,
+        "model": 2
+      },
+      {
+        "doc": "BRO_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "CMCSA_10-K_2025",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "FAST_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "AOS_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "EXPD_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 2,
+        "model": 2
+      },
+      {
+        "doc": "ABT_10-K_2006",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "TXN_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "CINF_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "CF_10-K_2016",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 12,
+        "model": 4
+      },
+      {
+        "doc": "VLO_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "CME_10-Q_2017",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "BLDR_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "AMP_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "EXPE_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "WELL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 3
+      },
+      {
+        "doc": "BMY_10-Q_2006",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 50,
+        "model": 2
+      },
+      {
+        "doc": "BXP_10-K_2022",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 6
+      },
+      {
+        "doc": "AES_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "CCI_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "ELV_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "MAS_10-K_2020",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "BSX_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "CHRW_10-Q_2013",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 3
+      },
+      {
+        "doc": "AEP_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "ECL_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "GPC_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "AMZN_10-K_2008",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "AIG_10-Q_2023",
+        "tier": "tier1a_tuning",
+        "matched": 2,
+        "gold": 9,
+        "model": 2
+      },
+      {
+        "doc": "FRT_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "AME_10-Q_2007",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 8,
+        "model": 1
+      },
+      {
+        "doc": "CVS_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "CTSH_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "CMG_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "CMI_10-K_2011",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "AMGN_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 2
+      },
+      {
+        "doc": "BIIB_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "WMT_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "CB_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "DGX_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 13,
+        "model": 2
+      },
+      {
+        "doc": "CHD_10-Q_2023",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 1
+      },
+      {
+        "doc": "DVN_10-K_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 18,
+        "model": 3
+      },
+      {
+        "doc": "D_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 14,
+        "model": 3
+      },
+      {
+        "doc": "COP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 14,
+        "model": 3
+      }
+    ],
+    "f1_blind_grounded": 0.237,
+    "cost_per_doc": 0.0087,
+    "corpus_cost": 79
+  },
+  "openai_gpt-4o-mini": {
+    "attempted": 90,
+    "ok": 90,
+    "success_rate": 1.0,
+    "grounding_rate": 0.9,
+    "avg_latency": 13.6,
+    "recall_blind": 0.074,
+    "recall_all": 0.1,
+    "precision_blind": 0.708,
+    "extra_ev_per_doc_blind": 0.35,
+    "avg_events_per_doc": 1.311,
+    "avg_output_tokens": 658,
+    "detail": {
+      "blind": {
+        "tp": 17,
+        "gold": 230,
+        "model_ev": 24,
+        "docs": 20
+      },
+      "pool": {
+        "tp": 68,
+        "gold": 620,
+        "model_ev": 94,
+        "docs": 70
+      },
+      "all": {
+        "tp": 85,
+        "gold": 850,
+        "model_ev": 118,
+        "docs": 90
+      }
+    },
+    "per_doc": [
+      {
+        "doc": "AKAM_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "AIZ_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 9,
+        "model": 2
+      },
+      {
+        "doc": "DTE_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 11,
+        "model": 2
+      },
+      {
+        "doc": "TYL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 1
+      },
+      {
+        "doc": "DAL_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 6,
+        "model": 0
+      },
+      {
+        "doc": "AJG_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "UPS_10-Q_2018",
+        "tier": "tier1a_tuning",
+        "matched": 0,
+        "gold": 18,
+        "model": 1
+      },
+      {
+        "doc": "APH_10-Q_2025",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 8,
+        "model": 1
+      },
+      {
+        "doc": "MO_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "DPZ_10-Q_2013",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 3,
+        "model": 1
+      },
+      {
+        "doc": "VZ_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 1
+      },
+      {
+        "doc": "DVA_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 8,
+        "model": 2
+      },
+      {
+        "doc": "F_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 1
+      },
+      {
+        "doc": "GRMN_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 10,
+        "model": 0
+      },
+      {
+        "doc": "EMN_10-Q_2013",
+        "tier": "tier1a_tuning",
+        "matched": 1,
+        "gold": 13,
+        "model": 1
+      },
+      {
+        "doc": "FIS_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 6,
+        "model": 1
+      },
+      {
+        "doc": "MAR_10-K_2017",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "CSGP_10-K_2013",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 13,
+        "model": 1
+      },
+      {
+        "doc": "GWW_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "CAT_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 2
+      },
+      {
+        "doc": "AON_10-Q_2017",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 16,
+        "model": 2
+      },
+      {
+        "doc": "ALGN_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "SHW_10-Q_2007",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 14,
+        "model": 1
+      },
+      {
+        "doc": "EQR_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 0
+      },
+      {
+        "doc": "DOV_10-K_2019",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 12,
+        "model": 2
+      },
+      {
+        "doc": "CNC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 12,
+        "model": 2
+      },
+      {
+        "doc": "RCL_10-K_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 17,
+        "model": 2
+      },
+      {
+        "doc": "AVB_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "REG_10-Q_2022",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "CL_10-K_2007",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 13,
+        "model": 2
+      },
+      {
+        "doc": "TFC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 8,
+        "model": 1
+      },
+      {
+        "doc": "ALB_10-K_2023",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 5,
+        "model": 1
+      },
+      {
+        "doc": "BKNG_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 9,
+        "model": 0
+      },
+      {
+        "doc": "BAC_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 3
+      },
+      {
+        "doc": "NFLX_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 0
+      },
+      {
+        "doc": "LKQ_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 1
+      },
+      {
+        "doc": "MMM_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 1
+      },
+      {
+        "doc": "AFL_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 0
+      },
+      {
+        "doc": "EOG_10-Q_2019",
+        "tier": "tier1a_tuning",
+        "matched": 0,
+        "gold": 8,
+        "model": 0
+      },
+      {
+        "doc": "CNP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 9,
+        "model": 2
+      },
+      {
+        "doc": "BA_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 0
+      },
+      {
+        "doc": "AXP_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 11,
+        "model": 1
+      },
+      {
+        "doc": "CBRE_10-Q_2025",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 11,
+        "model": 2
+      },
+      {
+        "doc": "MPWR_10-Q_2009",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 6,
+        "model": 0
+      },
+      {
+        "doc": "CMS_10-Q_2020",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 13,
+        "model": 0
+      },
+      {
+        "doc": "SYK_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "EW_10-Q_2022",
+        "tier": "tier1a_tuning",
+        "matched": 2,
+        "gold": 9,
+        "model": 2
+      },
+      {
+        "doc": "BRO_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 8,
+        "model": 1
+      },
+      {
+        "doc": "CMCSA_10-K_2025",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "FAST_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 0
+      },
+      {
+        "doc": "AOS_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "EXPD_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 2,
+        "model": 2
+      },
+      {
+        "doc": "ABT_10-K_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "TXN_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "CINF_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 0
+      },
+      {
+        "doc": "CF_10-K_2016",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 12,
+        "model": 1
+      },
+      {
+        "doc": "VLO_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 1
+      },
+      {
+        "doc": "CME_10-Q_2017",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 0
+      },
+      {
+        "doc": "BLDR_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "AMP_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "EXPE_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 8,
+        "model": 1
+      },
+      {
+        "doc": "WELL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 13,
+        "model": 2
+      },
+      {
+        "doc": "BMY_10-Q_2006",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 50,
+        "model": 1
+      },
+      {
+        "doc": "BXP_10-K_2022",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "AES_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "CCI_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 5,
+        "model": 1
+      },
+      {
+        "doc": "ELV_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 7,
+        "model": 2
+      },
+      {
+        "doc": "MAS_10-K_2020",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 11,
+        "model": 1
+      },
+      {
+        "doc": "BSX_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 11,
+        "model": 2
+      },
+      {
+        "doc": "CHRW_10-Q_2013",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 1
+      },
+      {
+        "doc": "AEP_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "ECL_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "GPC_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 1
+      },
+      {
+        "doc": "AMZN_10-K_2008",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 1
+      },
+      {
+        "doc": "AIG_10-Q_2023",
+        "tier": "tier1a_tuning",
+        "matched": 2,
+        "gold": 9,
+        "model": 2
+      },
+      {
+        "doc": "FRT_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "AME_10-Q_2007",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 8,
+        "model": 1
+      },
+      {
+        "doc": "CVS_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 10,
+        "model": 0
+      },
+      {
+        "doc": "CTSH_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 1
+      },
+      {
+        "doc": "CMG_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 2
+      },
+      {
+        "doc": "CMI_10-K_2011",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 2
+      },
+      {
+        "doc": "AMGN_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 11,
+        "model": 1
+      },
+      {
+        "doc": "BIIB_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 0,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "WMT_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 11,
+        "model": 1
+      },
+      {
+        "doc": "CB_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 1
+      },
+      {
+        "doc": "DGX_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 13,
+        "model": 1
+      },
+      {
+        "doc": "CHD_10-Q_2023",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 6,
+        "model": 1
+      },
+      {
+        "doc": "DVN_10-K_2012",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 18,
+        "model": 1
+      },
+      {
+        "doc": "D_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 14,
+        "model": 1
+      },
+      {
+        "doc": "COP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 14,
+        "model": 2
+      }
+    ],
+    "f1_blind_grounded": 0.137,
+    "cost_per_doc": 0.0064,
+    "corpus_cost": 58
+  },
+  "qwen_qwen3.8-27b": {
+    "attempted": 90,
+    "ok": 65,
+    "success_rate": 0.722,
+    "grounding_rate": 0.991,
+    "avg_latency": 442.3,
+    "recall_blind": 0.17,
+    "recall_all": 0.236,
+    "precision_blind": 0.765,
+    "extra_ev_per_doc_blind": 0.6,
+    "avg_events_per_doc": 3.467,
+    "avg_output_tokens": 1529,
+    "detail": {
+      "blind": {
+        "tp": 39,
+        "gold": 230,
+        "model_ev": 51,
+        "docs": 20
+      },
+      "pool": {
+        "tp": 162,
+        "gold": 620,
+        "model_ev": 261,
+        "docs": 70
+      },
+      "all": {
+        "tp": 201,
+        "gold": 850,
+        "model_ev": 312,
+        "docs": 90
+      }
+    },
+    "per_doc": [
+      {
+        "doc": "AKAM_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 2
+      },
+      {
+        "doc": "AIZ_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 6
+      },
+      {
+        "doc": "TYL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 7,
+        "model": 4
+      },
+      {
+        "doc": "DAL_10-Q_2015",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "UPS_10-Q_2018",
+        "tier": "tier1a_tuning",
+        "matched": 4,
+        "gold": 18,
+        "model": 6
+      },
+      {
+        "doc": "MO_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 4
+      },
+      {
+        "doc": "VZ_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 7,
+        "model": 5
+      },
+      {
+        "doc": "DVA_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 5
+      },
+      {
+        "doc": "F_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 7,
+        "model": 6
+      },
+      {
+        "doc": "EMN_10-Q_2013",
+        "tier": "tier1a_tuning",
+        "matched": 5,
+        "gold": 13,
+        "model": 6
+      },
+      {
+        "doc": "FIS_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "MAR_10-K_2017",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "CSGP_10-K_2013",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 6
+      },
+      {
+        "doc": "GWW_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 5,
+        "model": 6
+      },
+      {
+        "doc": "SHW_10-Q_2007",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 14,
+        "model": 5
+      },
+      {
+        "doc": "EQR_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "DOV_10-K_2019",
+        "tier": "tier1b_eval",
+        "matched": 6,
+        "gold": 12,
+        "model": 6
+      },
+      {
+        "doc": "CNC_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 12,
+        "model": 9
+      },
+      {
+        "doc": "RCL_10-K_2019",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 17,
+        "model": 5
+      },
+      {
+        "doc": "AVB_10-K_2009",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "CL_10-K_2007",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "ALB_10-K_2023",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 5,
+        "model": 4
+      },
+      {
+        "doc": "BKNG_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 9,
+        "model": 4
+      },
+      {
+        "doc": "BAC_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 9,
+        "gold": 13,
+        "model": 10
+      },
+      {
+        "doc": "NFLX_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 2
+      },
+      {
+        "doc": "LKQ_10-K_2024",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 6,
+        "model": 5
+      },
+      {
+        "doc": "MMM_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 5,
+        "model": 5
+      },
+      {
+        "doc": "AFL_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 4
+      },
+      {
+        "doc": "EOG_10-Q_2019",
+        "tier": "tier1a_tuning",
+        "matched": 1,
+        "gold": 8,
+        "model": 3
+      },
+      {
+        "doc": "CNP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 9,
+        "model": 7
+      },
+      {
+        "doc": "CBRE_10-Q_2025",
+        "tier": "tier1b_eval",
+        "matched": 4,
+        "gold": 11,
+        "model": 4
+      },
+      {
+        "doc": "CMS_10-Q_2020",
+        "tier": "tier1b_eval",
+        "matched": 3,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "SYK_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 6
+      },
+      {
+        "doc": "EW_10-Q_2022",
+        "tier": "tier1a_tuning",
+        "matched": 5,
+        "gold": 9,
+        "model": 6
+      },
+      {
+        "doc": "BRO_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "CMCSA_10-K_2025",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 6
+      },
+      {
+        "doc": "FAST_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 3
+      },
+      {
+        "doc": "AOS_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "EXPD_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 2,
+        "model": 2
+      },
+      {
+        "doc": "TXN_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "CF_10-K_2016",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 12,
+        "model": 4
+      },
+      {
+        "doc": "VLO_10-Q_2024",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 7,
+        "model": 6
+      },
+      {
+        "doc": "CME_10-Q_2017",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 4,
+        "model": 3
+      },
+      {
+        "doc": "BLDR_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 10,
+        "model": 10
+      },
+      {
+        "doc": "AMP_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 3
+      },
+      {
+        "doc": "EXPE_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 8,
+        "model": 7
+      },
+      {
+        "doc": "WELL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 13,
+        "model": 4
+      },
+      {
+        "doc": "BMY_10-Q_2006",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 50,
+        "model": 2
+      },
+      {
+        "doc": "CCI_10-Q_2011",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 5,
+        "model": 2
+      },
+      {
+        "doc": "MAS_10-K_2020",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 11,
+        "model": 6
+      },
+      {
+        "doc": "BSX_10-Q_2006",
+        "tier": "tier2_pool",
+        "matched": 6,
+        "gold": 11,
+        "model": 10
+      },
+      {
+        "doc": "ECL_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 4
+      },
+      {
+        "doc": "AIG_10-Q_2023",
+        "tier": "tier1a_tuning",
+        "matched": 5,
+        "gold": 9,
+        "model": 5
+      },
+      {
+        "doc": "FRT_10-Q_2011",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 7
+      },
+      {
+        "doc": "CTSH_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 4,
+        "model": 4
+      },
+      {
+        "doc": "CMG_10-Q_2019",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 6,
+        "model": 6
+      },
+      {
+        "doc": "CMI_10-K_2011",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 11,
+        "model": 3
+      },
+      {
+        "doc": "AMGN_10-Q_2009",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 8
+      },
+      {
+        "doc": "WMT_10-Q_2012",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 11,
+        "model": 0
+      },
+      {
+        "doc": "CB_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 3
+      },
+      {
+        "doc": "DGX_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 13,
+        "model": 5
+      },
+      {
+        "doc": "CHD_10-Q_2023",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 3
+      },
+      {
+        "doc": "DVN_10-K_2012",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 18,
+        "model": 5
+      },
+      {
+        "doc": "D_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 14,
+        "model": 6
+      },
+      {
+        "doc": "COP_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 14,
+        "model": 5
+      }
+    ],
+    "f1_blind_grounded": 0.29,
+    "cost_per_doc": 0.0207,
+    "corpus_cost": 188
+  },
+  "z-ai_glm-5.3-flash": {
+    "attempted": 90,
+    "ok": 23,
+    "success_rate": 0.256,
+    "grounding_rate": 0.997,
+    "avg_latency": 526.2,
+    "recall_blind": 0.091,
+    "recall_all": 0.099,
+    "precision_blind": 0.568,
+    "extra_ev_per_doc_blind": 0.8,
+    "avg_events_per_doc": 1.644,
+    "avg_output_tokens": 1903,
+    "detail": {
+      "blind": {
+        "tp": 21,
+        "gold": 230,
+        "model_ev": 37,
+        "docs": 20
+      },
+      "pool": {
+        "tp": 63,
+        "gold": 620,
+        "model_ev": 111,
+        "docs": 70
+      },
+      "all": {
+        "tp": 84,
+        "gold": 850,
+        "model_ev": 148,
+        "docs": 90
+      }
+    },
+    "per_doc": [
+      {
+        "doc": "AKAM_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "AIZ_10-K_2014",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 9,
+        "model": 10
+      },
+      {
+        "doc": "DTE_10-Q_2016",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 11,
+        "model": 6
+      },
+      {
+        "doc": "DPZ_10-Q_2013",
+        "tier": "tier1b_eval",
+        "matched": 1,
+        "gold": 3,
+        "model": 5
+      },
+      {
+        "doc": "MAR_10-K_2017",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "CAT_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 8,
+        "gold": 11,
+        "model": 10
+      },
+      {
+        "doc": "ALGN_10-Q_2021",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 10,
+        "model": 4
+      },
+      {
+        "doc": "REG_10-Q_2022",
+        "tier": "tier1b_eval",
+        "matched": 6,
+        "gold": 7,
+        "model": 7
+      },
+      {
+        "doc": "CL_10-K_2007",
+        "tier": "tier2_pool",
+        "matched": 7,
+        "gold": 13,
+        "model": 8
+      },
+      {
+        "doc": "AFL_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 0,
+        "gold": 4,
+        "model": 5
+      },
+      {
+        "doc": "EOG_10-Q_2019",
+        "tier": "tier1a_tuning",
+        "matched": 3,
+        "gold": 8,
+        "model": 5
+      },
+      {
+        "doc": "BRO_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "FAST_10-Q_2008",
+        "tier": "tier2_pool",
+        "matched": 1,
+        "gold": 5,
+        "model": 5
+      },
+      {
+        "doc": "ABT_10-K_2006",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 9
+      },
+      {
+        "doc": "AMP_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 10,
+        "model": 5
+      },
+      {
+        "doc": "WELL_10-Q_2020",
+        "tier": "tier2_pool",
+        "matched": 7,
+        "gold": 13,
+        "model": 9
+      },
+      {
+        "doc": "AEP_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 10,
+        "model": 9
+      },
+      {
+        "doc": "AIG_10-Q_2023",
+        "tier": "tier1a_tuning",
+        "matched": 7,
+        "gold": 9,
+        "model": 10
+      },
+      {
+        "doc": "AME_10-Q_2007",
+        "tier": "tier1b_eval",
+        "matched": 2,
+        "gold": 8,
+        "model": 6
+      },
+      {
+        "doc": "CTSH_10-Q_2014",
+        "tier": "tier2_pool",
+        "matched": 4,
+        "gold": 4,
+        "model": 4
+      },
+      {
+        "doc": "CB_10-Q_2022",
+        "tier": "tier2_pool",
+        "matched": 2,
+        "gold": 7,
+        "model": 6
+      },
+      {
+        "doc": "DGX_10-Q_2010",
+        "tier": "tier2_pool",
+        "matched": 5,
+        "gold": 13,
+        "model": 6
+      },
+      {
+        "doc": "CHD_10-Q_2023",
+        "tier": "tier2_pool",
+        "matched": 3,
+        "gold": 6,
+        "model": 5
+      }
+    ],
+    "f1_blind_grounded": 0.167,
+    "cost_per_doc": 0.0033,
+    "corpus_cost": 30
+  }
+}
