@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+# real API keys — never commit
+config/config.yaml
+# raw downloads (fetched by scripts, multi-GB)
+data/raw/
+data/extracted_v2/

@@ -1,0 +1,39 @@
+# API Keys (use environment variables in production)
+fmp:
+  api_key: "YOUR_KEY_HERE"
+  base_url: "https://financialmodelingprep.com/stable"
+  rate_limit: 750  # requests per minute
+
+openai:
+  api_key: "YOUR_KEY_HERE"
+  model: "google/gemini-2.5-flash"
+  base_url: "https://openrouter.ai/api/v1"
+
+
+# LLM Settings
+extractor:
+  temperature: 0.1
+  max_tokens: 4000
+  
+reasoner:
+  temperature: 0.3
+  max_tokens: 2000
+  num_samples: 3  # for majority voting
+
+# Portfolio Settings
+black_litterman:
+  tau: 0.05
+  delta: 2.5  # risk aversion
+
+optimizer:
+  risk_aversion: 2.5
+  max_position: 0.4
+  min_position: 0.0
+  turnover_limit: null  # optional
+
+# Backtest Settings
+backtest:
+  start_date: "2004-01-01"
+  end_date: "2026-01-01"
+  rebalance_frequency: "quarterly"
+  transaction_cost_bps: 10

@@ -1,0 +1,147 @@
+# Universe configuration for Filing-Aware LLM Portfolio Optimization
+# 100 companies with complete data for 2006-2025 (20 years)
+# - SEC filing links (10-K, 10-Q): 100%
+# - Analyst estimates: 100%
+# - Price data: 100%
+# Balanced by GICS Sector
+
+# Study period
+period:
+  start: "2006-01-01"
+  end: "2025-12-31"
+  years: 20
+  description: "Complete SEC filings + analyst estimates coverage"
+
+universe:
+  # Portfolio 1: Core/Training (50 companies)
+  core:
+    - ABT    # Abbott Laboratories (Health Care)
+    - AEE    # Ameren (Utilities)
+    - AES    # AES Corporation (Utilities)
+    - AFL    # Aflac (Financials)
+    - AIZ    # Assurant (Financials)
+    - AKAM   # Akamai Technologies (Information Technology)
+    - ALB    # Albemarle Corporation (Materials)
+    - ALL    # Allstate (Financials)
+    - AME    # Ametek (Industrials)
+    - AMGN   # Amgen (Health Care)
+    - AMZN   # Amazon (Consumer Discretionary)
+    - AON    # Aon plc (Financials)
+    - APH    # Amphenol (Information Technology)
+    - BAC    # Bank of America (Financials)
+    - BLDR   # Builders FirstSource (Industrials)
+    - BMY    # Bristol Myers Squibb (Health Care)
+    - BXP    # BXP, Inc. (Real Estate)
+    - C      # Citigroup (Financials)
+    - CCI    # Crown Castle (Real Estate)
+    - CHD    # Church & Dwight (Consumer Staples)
+    - CHRW   # C.H. Robinson (Industrials)
+    - CINF   # Cincinnati Financial (Financials)
+    - CMG    # Chipotle Mexican Grill (Consumer Discretionary)
+    - CNC    # Centene Corporation (Health Care)
+    - COF    # Capital One (Financials)
+    - COP    # ConocoPhillips (Energy)
+    - CSGP   # CoStar Group (Real Estate)
+    - CVS    # CVS Health (Health Care)
+    - CVX    # Chevron Corporation (Energy)
+    - DOV    # Dover Corporation (Industrials)
+    - ECL    # Ecolab (Materials)
+    - ELV    # Elevance Health (Health Care)
+    - EOG    # EOG Resources (Energy)
+    - EXPE   # Expedia Group (Consumer Discretionary)
+    - FAST   # Fastenal (Industrials)
+    - FRT    # Federal Realty Investment Trust (Real Estate)
+    - GE     # GE Aerospace (Industrials)
+    - GPC    # Genuine Parts Company (Consumer Discretionary)
+    - LKQ    # LKQ Corporation (Consumer Discretionary)
+    - MAS    # Masco (Industrials)
+    - MMM    # 3M (Industrials)
+    - NFLX   # Netflix (Communication Services)
+    - RCL    # Royal Caribbean Group (Consumer Discretionary)
+    - SHW    # Sherwin-Williams (Materials)
+    - SYK    # Stryker Corporation (Health Care)
+    - TFC    # Truist Financial (Financials)
+    - TYL    # Tyler Technologies (Information Technology)
+    - VZ     # Verizon (Communication Services)
+    - WELL   # Welltower (Real Estate)
+    - WMT    # Walmart (Consumer Staples)
+
+  # Portfolio 2: Holdout/Validation (50 companies)
+  holdout:
+    - AEP    # American Electric Power (Utilities)
+    - AIG    # American International Group (Financials)
+    - AJG    # Arthur J. Gallagher & Co. (Financials)
+    - ALGN   # Align Technology (Health Care)
+    - AMP    # Ameriprise Financial (Financials)
+    - AOS    # A. O. Smith (Industrials)
+    - AVB    # AvalonBay Communities (Real Estate)
+    - AXP    # American Express (Financials)
+    - BA     # Boeing (Industrials)
+    - BIIB   # Biogen (Health Care)
+    - BKNG   # Booking Holdings (Consumer Discretionary)
+    - BRO    # Brown & Brown (Financials)
+    - BSX    # Boston Scientific (Health Care)
+    - CAT    # Caterpillar Inc. (Industrials)
+    - CB     # Chubb Limited (Financials)
+    - CBRE   # CBRE Group (Real Estate)
+    - CF     # CF Industries (Materials)
+    - CL     # Colgate-Palmolive (Consumer Staples)
+    - CMCSA  # Comcast (Communication Services)
+    - CME    # CME Group (Financials)
+    - CMI    # Cummins (Industrials)
+    - CMS    # CMS Energy (Utilities)
+    - CNP    # CenterPoint Energy (Utilities)
+    - CPT    # Camden Property Trust (Real Estate)
+    - CRL    # Charles River Laboratories (Health Care)
+    - CTSH   # Cognizant (Information Technology)
+    - D      # Dominion Energy (Utilities)
+    - DAL    # Delta Air Lines (Industrials)
+    - DGX    # Quest Diagnostics (Health Care)
+    - DPZ    # Domino's (Consumer Discretionary)
+    - DTE    # DTE Energy (Utilities)
+    - DVA    # DaVita (Health Care)
+    - DVN    # Devon Energy (Energy)
+    - EIX    # Edison International (Utilities)
+    - EMN    # Eastman Chemical Company (Materials)
+    - EQR    # Equity Residential (Real Estate)
+    - ERIE   # Erie Indemnity (Financials)
+    - EW     # Edwards Lifesciences (Health Care)
+    - EXPD   # Expeditors International (Industrials)
+    - F      # Ford Motor Company (Consumer Discretionary)
+    - FIS    # Fidelity National Information Services (Financials)
+    - GRMN   # Garmin (Consumer Discretionary)
+    - GWW    # W. W. Grainger (Industrials)
+    - MAR    # Marriott International (Consumer Discretionary)
+    - MO     # Altria (Consumer Staples)
+    - MPWR   # Monolithic Power Systems (Information Technology)
+    - REG    # Regency Centers (Real Estate)
+    - TXN    # Texas Instruments (Information Technology)
+    - UPS    # United Parcel Service (Industrials)
+    - VLO    # Valero Energy (Energy)
+
+# Sector distribution summary
+# Both portfolios are balanced across 11 GICS sectors:
+#
+# Sector                    | Core | Holdout | Total
+# --------------------------|------|---------|------
+# Communication Services    |    2 |       1 |    3
+# Consumer Discretionary    |    6 |       5 |   11
+# Consumer Staples          |    2 |       2 |    4
+# Energy                    |    3 |       2 |    5
+# Financials                |    9 |       9 |   18
+# Health Care               |    7 |       7 |   14
+# Industrials               |    8 |       8 |   16
+# Information Technology    |    3 |       3 |    6
+# Materials                 |    3 |       2 |    5
+# Real Estate               |    5 |       5 |   10
+# Utilities                 |    2 |       6 |    8
+# --------------------------|------|---------|------
+# Total                     |   50 |      50 |  100
+
+metadata:
+  total_companies: 100
+  core_count: 50
+  holdout_count: 50
+  source: "S&P 500 constituents with complete data 2006-2025"
+  selection_criteria: "Complete 10-K, 10-Q links + analyst estimates for all 20 years, balanced by sector"
+  selection_date: "2026-01-23"
